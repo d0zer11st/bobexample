@@ -1,0 +1,5 @@
+psql:
+  dsn: "postgres://test_user:test_user@pg:5432/test_db?sslmode=disable"
+  output: /project/internal/models
+  except:
+    schema_migrations:
